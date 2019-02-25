@@ -382,6 +382,8 @@ form#contact input.btn.btn-primary {
     margin-top: 10px; } }
 
 @media (max-width: 992px) {
+  article-splash {
+    display: none; }
   body {
     font-size: 15px; }
   p {
