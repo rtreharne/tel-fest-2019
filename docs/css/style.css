@@ -65,15 +65,85 @@ h3.article {
   height: 80px;
   border-radius: 40px;
   border: 2px solid #DFDCE3;
-  display: inline-block; }
+  margin-right: 15px; }
 
-p.article-author {
+.article-author {
+  display: table-cell;
+  vertical-align: middle;
+  margin-left: 10px;
+  margin-bottom: 0px; }
+
+.article-footer {
+  display: table;
   height: 100px;
-  display: inline-block;
-  margin-left: 10px; }
+  overflow: hidden; }
 
 p.partners {
   margin-top: 30px; }
 
 .partner-logo {
   max-width: 250px; }
+
+#mc_embed_signup {
+  background: #fff;
+  clear: left;
+  font: 14px Helvetica,Arial,sans-serif; }
+
+/* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+#mc-embedded-subscribe-form input[type=checkbox] {
+  display: inline;
+  width: auto;
+  margin-right: 10px; }
+
+#mergeRow-gdpr {
+  margin-top: 20px; }
+
+#mergeRow-gdpr fieldset label {
+  font-weight: normal; }
+
+#mc-embedded-subscribe-form .mc_fieldset {
+  border: none;
+  min-height: 0px;
+  padding-bottom: 0px; }
+
+#mc_embed_signup .mc-field-group input {
+  height: 50px; }
+
+#mc_embed_signup .mc-field-group select {
+  width: 100%;
+  max-width: 100%; }
+
+#mc_embed_signup .button {
+  background-color: #f7b733;
+  font-size: 1.5em;
+  height: 50px; }
+
+#mc_embed_signup .button:hover {
+  background-color: #f1bb4e; }
+
+#mc-embedded-subscribe-form input[type=checkbox] {
+  height: auto; }
+
+.card {
+  margin: 20px;
+  border: 5px solid #DFDCE3; }
+
+.card-img-top {
+  width: 100%; }
+
+.card-body {
+  padding: 20px;
+  background-color: #fff; }
+
+.card-body h5 {
+  font-size: 1.5em;
+  color: #FC4A1A; }
+
+.card-body h6 {
+  font-size: 0.8em;
+  color: #333; }
+
+.card-text {
+  margin: 0px;
+  color: #333; }

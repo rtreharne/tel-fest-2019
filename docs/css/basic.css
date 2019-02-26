@@ -123,6 +123,11 @@ span.page-info {
   background-color: #4abdac;
   color: #fff; }
 
+#content {
+  width: 100%;
+  background-color: #f7b733;
+  color: #fff; }
+
 #support h1.big-title {
   font-size: 2em;
   font-family: 'Merriweather', serif; }

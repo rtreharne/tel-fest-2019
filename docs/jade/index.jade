@@ -10,6 +10,7 @@ html(lang='en')
 
     link(href='//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css', rel='stylesheet')
     link(href="https://fonts.googleapis.com/css?family=Merriweather:900" rel="stylesheet")
+    link(href='//cdn-images.mailchimp.com/embedcode/classic-10_7.css', rel='stylesheet')
     link(href="css/basic.css", rel="stylesheet")
     link(href="css/style.css", rel="stylesheet")
 
@@ -52,6 +53,18 @@ html(lang='en')
         .col.col-lg-offset-1.col-lg-10
           .text-left
             include why.jade
+
+    .container#content.full-height.vertical-center.headline
+      .row
+        .col.col-lg-offset-1.col-lg-10
+          .text-left
+            include content.jade
+
+    .container#mailing.full-height.vertical-center.headline
+      .row
+        .col.col-lg-offset-2.col-lg-8
+          .text-left
+            include mailing.jade
 
     script(type='text/javascript', src='//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js')
     script(type='text/javascript', src='//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js')
